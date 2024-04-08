@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <section>
+        <div class="login-container">
+    <div class="form-container">
+        <p class="title">Sign Up</p>
+        <form class="form">
+            <div class="input-group">
+                <label for="username">FullName</label>
+                <input  type="text"  id="signup-username" placeholder="FullName" required>
+                
+            </div>
+            <div class="input-group">
+                <label for="Email">E-Mail</label>
+                <input type="email"  id="signup-email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" req id="signup-password" placeholder="Password" required>
+            </div>
+            <button id="signup-btn" class="sign signup-button"><a href="./index.html">Sign Up</a></button>
+            <p class="back-btn"><a href="./index.html"> Back to login page </a></p>
+        </form>
+    </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module" src="app.js"></script>
+</body>
+
+</html>
